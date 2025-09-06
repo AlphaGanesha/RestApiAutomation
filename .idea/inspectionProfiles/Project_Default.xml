@@ -1,0 +1,38 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="VulnerableLibrariesLocal" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="isIgnoringEnabled" value="true" />
+      <option name="ignoredModules">
+        <list>
+          <option value="RestApiAutomation" />
+          <option value="RestApiAutomation" />
+          <option value="RestApiAutomation" />
+          <option value="RestApiAutomation" />
+          <option value="RestApiAutomation" />
+          <option value="RestApiAutomation" />
+        </list>
+      </option>
+      <option name="ignoredPackages">
+        <list>
+          <option value="commons-codec:commons-codec:1.11" />
+          <option value="org.apache.commons:commons-lang3:3.11" />
+          <option value="org.apache.commons:commons-lang3:3.5" />
+          <option value="org.yaml:snakeyaml:1.23" />
+          <option value="com.google.code.gson:gson:2.8.6" />
+          <option value="commons-io:commons-io:2.11.0" />
+        </list>
+      </option>
+      <option name="ignoredReasons">
+        <list>
+          <option value="Not exploitable" />
+          <option value="In progress" />
+          <option value="In progress" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
